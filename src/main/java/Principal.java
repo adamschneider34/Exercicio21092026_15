@@ -7,11 +7,10 @@ public class Principal {
         nome = JOptionPane.showInputDialog("Digite seu nome: ");
         idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
 
-    if (idade < 25 && idade > 15) {
-                System.out.println(nome + " ACEITA");
-    }
-            else {
+        if (idade < 25 && idade > 15) {
+            System.out.println(nome + " ACEITA");
+        } else {
             System.out.println(nome + " NÃO ACEITA");
         }
-}
+    }
 }
