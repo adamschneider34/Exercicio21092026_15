@@ -3,7 +3,7 @@ package exercicio_15;
 
 import javax.swing.JOptionPane;
 
-public class Principal {
+public class Principaltest {
     public static void main(String[] args) {
         int idade;
         String nome;
