@@ -1,9 +1,7 @@
 
-package exercicio_15;
-
 import javax.swing.JOptionPane;
 
-public class Principaltest {
+public class Principal {
     public static void main(String[] args) {
         int idade;
         String nome;
